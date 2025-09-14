@@ -1,0 +1,1 @@
+# Frontend - Bug Bounty Platform (React + Vite)\n\n## Como rodar\n1. Instale dependências:\n   ```bash\n   cd frontend\n   npm install\n   ```\n2. Ajuste variável de ambiente (opcional): `VITE_API_URL` (por padrão `http://localhost:5000/api`)\n3. Rode:\n   ```bash\n   npm run dev\n   ```\n
