@@ -45,6 +45,37 @@ bug-bounty-platform/
 │ │ ├─ components/ChallengeCard.jsx
 │ │ └─ styles.css
 │ └─ README-frontend.md
-├─ .gitignore
-└─ README.md
+└─ .gitignore
+```
+
+## Passo a passo — preparação (VSCode)
+
+Instale Node.js (>= 18) e Git.
+
+Abra o VSCode.
+
+Clone o repositório (ou crie pasta bug-bounty-platform).
+
+Abra a pasta no VSCode: File > Open Folder.
+
+Abra um terminal integrado (Ctrl+` ).
+
+Vamos criar duas pastas: backend e frontend.
+
+## Backend — configuração e código
+Inicializar o backend
+```
+cd backend
+npm init -y
+npm i express mongoose bcryptjs jsonwebtoken cors dotenv
+npm i -D nodemon
+```
+
+## Frontend — configuração e código
+Inicializar frontend (Vite + React)
+```
+cd ../frontend
+npm create vite@latest . -- --template react
+npm i
+npm i axios jwt-decode
 ```
